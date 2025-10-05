@@ -243,3 +243,5 @@ endif()
 if (WIN32)
 add_subdirectory(ext-wepoll)
 endif()
+
+# Update: 2025-10-05
