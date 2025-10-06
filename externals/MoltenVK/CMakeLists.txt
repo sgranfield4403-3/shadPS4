@@ -91,3 +91,5 @@ target_link_libraries(MoltenVK PRIVATE
         ${APPKIT_LIBRARY} ${FOUNDATION_LIBRARY} ${IOKIT_LIBRARY} ${IOSURFACE_LIBRARY} ${METAL_LIBRARY} ${QUARTZCORE_LIBRARY}
         Vulkan::Headers cereal::cereal spirv-cross-msl MoltenVKCommon MoltenVKShaderConverter)
 target_compile_definitions(MoltenVK PRIVATE MVK_FRAMEWORK_VERSION=${MVK_VERSION} MVK_USE_METAL_PRIVATE_API=1)
+
+# Update: 2025-10-06
